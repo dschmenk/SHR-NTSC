@@ -5,7 +5,7 @@ Original:
 ![Original](https://github.com/dschmenk/SHR-NTSC/blob/master/images/racecar.JPG)
 
 Double Hi-Res Graphics:
-![Double HiRes]((https://github.com/dschmenk/SHR-NTSC/blob/master/images/racecar-dhgr.JPG)
+![Double HiRes]((https://github.com/dschmenk/SHR-NTSC/blob/master/images/racecar-dhgr.JPG?raw=true)
 
 Super Hi-Res Graphics mapping 140 pixels:
 ![SHR-140]((https://github.com/dschmenk/SHR-NTSC/blob/master/images/racecar-140.JPG)
