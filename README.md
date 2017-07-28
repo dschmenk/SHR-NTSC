@@ -3,7 +3,7 @@ NTSC artifact colors for Apple IIGS
 
 First things first: This is far from perfect. I took many liberties in the YUV conversion to improve the possible color matches. There is also quite a bit of chroma-ringing around high contrast areas. But this should be a good start for further explorations.
 
-There is a self-booting 5 1/4 disk image slideshow of the racecar images (sans 160 pixel version, just wouldn't fit). Press RETURN to advnce to next slide. Th following images are from the slideshow (including the 160 pixel version).
+There is a self-booting 5 1/4 disk image (SLIDESHOW.PO) slideshow of the racecar images (sans 160 pixel version, just wouldn't fit). Press RETURN to advance to next slide. The following images are from the slideshow (including the 160 pixel version).
 
 Original:
 ![Original](https://github.com/dschmenk/SHR-NTSC/blob/master/images/racecar.JPG)
