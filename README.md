@@ -2,7 +2,7 @@
 NTSC artifact colors for Apple IIGS
 
 Original:
-!(http:images/racecar.JPG)
+![Original](http:images/racecar.JPG)
 
 Double Hi-Res Graphics:
-!(http:images/racecar-shgr.JPG)
+![Double HiRes](http:images/racecar-shgr.JPG)
