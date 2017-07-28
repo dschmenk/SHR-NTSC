@@ -3,6 +3,8 @@ NTSC artifact colors for Apple IIGS
 
 First things first: This is far from perfect. I took many liberties in the YUV conversion to improve the possible color matches. There is also quite a bit of chroma-ringing around high contrast areas. But this should be a good start for further explorations.
 
+My 2017 Kansasfest presentation slides are here as a PDF. You can also watch the presentation (prepare to be bored) on YouTube: https://www.youtube.com/watch?v=dVeX_odsmeQ&t=9040s
+
 There is a self-booting 5 1/4 disk image (SLIDESHOW.PO) slideshow of the racecar images (sans 160 pixel version, just wouldn't fit). Press RETURN to advance to next slide. The following images are from the slideshow (including the 160 pixel version).
 
 Original:
