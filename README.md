@@ -5,6 +5,9 @@ First things first: This is far from perfect. I took many liberties in the YUV c
 
 My 2017 Kansasfest presentation slides are here as a PDF. You can also watch the presentation (prepare to be bored) on YouTube: https://www.youtube.com/watch?v=dVeX_odsmeQ&t=9040s
 
+Or high quality on archive.org:
+https://archive.org/details/2017_Kfest_NTSC_Artifact_Colors_The_Next_Generation
+
 There is a self-booting 5 1/4 disk image (SLIDESHOW.PO) slideshow of the racecar images (sans 160 pixel version, just wouldn't fit). Press RETURN to advance to next slide. The following images are from the slideshow (including the 160 pixel version).
 
 Original:
