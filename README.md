@@ -3,7 +3,7 @@ NTSC artifact colors for Apple IIGS
 
 First things first: This is far from perfect. I took many liberties in the YUV conversion to improve the possible color matches. There is also quite a bit of chroma-ringing around high contrast areas. But this should be a good start for further explorations.
 
-My 2017 Kansasfest presentation slides are here as a PDF. You can also watch the presentation (prepare to be bored) on YouTube: https://www.youtube.com/watch?v=dVeX_odsmeQ&t=9040s
+My 2017 Kansasfest presentation slides are here as a PDF. You can also watch the presentation (prepare to be bored) on YouTube: https://www.youtube.com/watch?v=S8ZsefIEnvE
 
 Or high quality on archive.org:
 https://archive.org/details/2017_Kfest_NTSC_Artifact_Colors_The_Next_Generation
