@@ -21,10 +21,10 @@ def yuv2rgb(y, u, v):
     b = max(0.0, y + 2.033 * u)
     return r, g, b
 
-def luv2rgb(y, u, v):
-    r = max(0.0, y + v)
-    g = max(0.0, y - 0.707 * u - 0.707 * v)
-    b = max(0.0, y + u)
+def luv2rgb(l, u, v):
+    r = max(0.0, l + v)
+    g = max(0.0, l - 0.707 * u - 0.707 * v)
+    b = max(0.0, l + u)
     return r, g, b
 
 def ntscInitRGB(angle):
@@ -82,7 +82,7 @@ def ntscPrev():
         grn += ntscOutput[p][1]
         blu += ntscOutput[p][2]
     return (min(255,red), min(255,grn), min(255,blu))
-     
+
 def ntscBest(ntsc, rgb):
     nearest = 195075
     lumBest = 0
@@ -110,7 +110,7 @@ def ntscMapRGB(rgb):
         blu = max(0, rgb[p][2] - prev[2])
         shr.append(ntscBest(ntscRGB[p], (red, grn, blu)))
     return shr
-    
+
 def displayBars():
     for l in xrange(4):
         for bar in xrange(len(ntscRGB)):

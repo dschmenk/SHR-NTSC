@@ -23,12 +23,12 @@ def yuv2rgb(y, u, v):
     b = max(0.0, y + 2.033 * u)
     return (r, g, b)
 
-def luv2rgb(y, u, v):
-    r = max(0.0, y + v)
-    g = max(0.0, y - 0.707 * u - 0.707 * v)
-    b = max(0.0, y + u)
+def luv2rgb(l, u, v):
+    r = max(0.0, l + v)
+    g = max(0.0, l - 0.707 * u - 0.707 * v)
+    b = max(0.0, l + u)
     return (r, g, b)
-    
+
 def ntscInitRGB(angle):
     YScale = [0.0, 0.25, 0.50, 1.0]#[0.0, 0.3334, 0.6667, 1.0]
     redSum = 0.0
@@ -96,7 +96,7 @@ def ntscInitPixels():
 
 def ntscMapRGB(rgb, x):
     global shrPixels
-    
+
     nearest = 195075
     nBest  = 0
     errRed = 0
